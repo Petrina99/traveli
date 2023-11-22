@@ -1,0 +1,137 @@
+body, html, main {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.logo-sec {
+    background-color: #C5E117;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.logo-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-div p {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 96px;
+    margin: 0;
+    text-shadow: 1px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.logo-div img {
+    margin-top: 10px;
+}
+
+.slogan-div {
+    width: 100%;
+    text-align: center;
+}
+
+.slogan-div p {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 800;
+    text-shadow: 1px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.buttons-sec {
+    background-color: #272727;
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.about-container {
+    width: 100%;
+    text-align: end;
+    padding-top: 32px;
+}
+
+.about-container a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #C5E117;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.buttons-container {
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    text-align: center;
+}
+
+.container p {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    text-shadow: 1px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.signup-container {
+    border-bottom: 3px solid #C5E117;
+    padding-bottom: 38px;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    background-color: #444444;
+    box-shadow: 0px 4px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    border: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 28px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: black;
+    background-color: #C5E117;
+    box-shadow: 0px -4px 0px rgba(0,0,0,0.2);
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.signup-btn {
+    padding: 12px 40px;
+}
+
+.login-btn {
+    padding: 12px 57px;
+}
+
+.author-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.author-container p{
+    text-align: center;
+    color: #C5E117;
+    text-shadow: 1px 3px 1px rgba(0, 0, 0, 0.2);
+    font-weight: 800;
+    font-size: 13px;
+}

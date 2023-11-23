@@ -17,9 +17,107 @@
     <body>
         <header>
             <div class="header-logo">
-                <img src="images/logo-yellow.svg" alt="Traveli logo">
-                <p>Traveli</p>
+                    <a href="index.html">
+                        <img src="images/logo-yellow.svg" alt="Traveli logo">
+                    </a>
+                    <a href="index.html">Traveli</a>
+            </div>
+            <div class="search-div">
+                <div class="user-div">
+                    <input type="text" placeholder="Search users">
+                    <img src="images/icons/search engine_.svg" alt="search icon">
+                </div>
+                <div class="places-div">
+                    <input type="text" placeholder="Search places">
+                    <img src="images/icons/search engine_.svg" alt="search icon">
+                </div>
+            </div>
+            <div class="profile-div">
+                <p>Username</p>
+                <img src="images/icons/icon _account circle_.png" alt="account circle icon">
             </div>
         </header>
+        <main>
+            <div class="trending-aside">
+                <div class="trending-aside-head">
+                    <p>Trending places</p>
+                    <img src="images/icons/trending-up-svgrepo-com.svg" alt="">
+                </div>
+                <div class="city-container">
+                    <div class="city-item">
+                        <p>Rome, Italy</p>
+                    </div>
+                    <div class="city-item">
+                        <p>Zagreb, Croatia</p>
+                    </div>
+                    <div class="city-item">
+                        <p>London, United Kingdom</p>
+                    </div>
+                    <div class="city-item">
+                        <p>Berlin, Germany</p>
+                    </div>
+                    <div class="city-item">
+                        <p>Miami, Florida, USA</p>
+                    </div>
+                    <div class="city-item">
+                        <p>Tokyo, Japan</p>
+                    </div>
+                    <div class="city-item">
+                        <p>Osijek, Croatia</p>
+                    </div>
+                </div>
+            </div>
+            <section class="main-content">
+                <nav>
+                    <div class="nav-buttons">
+                        <button>
+                            <p>New</p>
+                            <img src="images/icons/icon _Recently viewed_white.svg" alt="recently viewed icon">
+                        </button>
+                        <button>
+                            <p>Trending</p>
+                            <img src="images/icons/icon _fire_white.svg" alt="fire icon">
+                        </button>
+                        <button>
+                            <p>Top</p>
+                            <img src="images/icons/icon _leaderboard_white.svg" alt="top icon">
+                        </button>
+                    </div>
+                </nav>
+                <section class="create-post">
+                    <p>Create a new post</p>
+                    <form>
+                        <input type="text" name="title" id="title" placeholder="Title">
+                        <input type="text" name="location" id="location" placeholder="Enter the location of your trip">
+                        <textarea name="post-text" id="post-text" cols="30" rows="10" placeholder="Your text here"></textarea>
+                        <img src="images/icons/image-plus-svgrepo-com.svg" alt="add image icon" title="Add an image">
+                        <button type="submit">Create</button>
+                    </form>
+                </section>
+            </section>
+            <aside class="users-aside">
+                <div class="users-aside-head">
+                    <p>Users you follow</p>
+                </div>
+                <div class="users-container">
+                    <div class="users-item">
+                        <img src="images/avatars/avatar-female-girl-svgrepo-com.svg" alt="female girl avatar">
+                        <p>User2222</p>
+                    </div>
+                    <div class="users-item">
+                        <img src="images/avatars/avatar-bad-breaking-svgrepo-com.svg" alt="walter white avatar">
+                        <p>WalterWhite99</p>
+                    </div>
+                    <div class="users-item">
+                        <img src="images/avatars/avatar-man-person-svgrepo-com.svg" alt="punker avatar">
+                        <p>Punk0024</p>
+                    </div>
+                    <div class="users-item">
+                        <img src="images/avatars/avatar-coffee-cup-svgrepo-com.svg" alt="coffee avatar">
+                        <p>CoffeeNinjaCRO</p>
+                    </div>
+                </div>
+            </aside>
+        </main>
     </body>
 </html>

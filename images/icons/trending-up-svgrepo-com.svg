@@ -1,7 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Interface / Trending_Up">
-<path id="Vector" d="M20.0005 7L14.1543 12.9375C14.0493 13.0441 13.9962 13.0976 13.9492 13.1396C13.1899 13.8193 12.0416 13.8193 11.2822 13.1396C11.2352 13.0976 11.1817 13.0442 11.0767 12.9375C10.9716 12.8308 10.9191 12.7774 10.8721 12.7354C10.1127 12.0557 8.96397 12.0557 8.20461 12.7354C8.15771 12.7773 8.10532 12.8305 8.00078 12.9367L4 17M20.0005 7L20 13M20.0005 7H14" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_8_274)">
+<path d="M28.3341 9.91666L20.052 18.3281C19.9033 18.4791 19.828 18.5549 19.7614 18.6144C18.6858 19.5773 17.059 19.5773 15.9832 18.6144C15.9166 18.5549 15.8408 18.4793 15.6921 18.3281C15.5432 18.177 15.4688 18.1013 15.4022 18.0418C14.3264 17.0789 12.699 17.0789 11.6233 18.0418C11.5568 18.1012 11.4826 18.1765 11.3345 18.327L5.66675 24.0833M28.3341 9.91666L28.3334 18.4167M28.3341 9.91666H19.8334" stroke="#C5E117" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
+<defs>
+<filter id="filter0_d_8_274" x="0.166748" y="8.41666" width="33.6675" height="25.1667" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_8_274"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_8_274" result="shape"/>
+</filter>
+</defs>
 </svg>
